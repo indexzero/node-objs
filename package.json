@@ -1,0 +1,21 @@
+{
+  "name": "objs",
+  "description": "A complete set of utilities for working with Objects.",
+  "version": "0.1.0",
+  "author": "Charlie Robbins. <charlie@nodejitsu.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/indexzero/node-objs.git"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "main": "./lib/index",
+  "engines": {
+    "node": ">= 0.6.4"
+  }
+}
+
